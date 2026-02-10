@@ -93,6 +93,16 @@ body
     text-align: center;
     margin-top: 20px;
 }
+.backgroundp1
+{
+    width: 300px;
+    padding: 15px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
 .div1
 {
     display: flex;
@@ -112,7 +122,7 @@ body
 }
 .bigp1
 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -135,6 +145,17 @@ body
 .section2
 {
     color: white;
+}
+.section3
+{
+    width: 100%;
+    height: 525px;
+    background-color: #476178;
+    color: white;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: 50px;
 }
 @media(max-width: 520px)
 {
@@ -194,6 +215,20 @@ body
     {
         flex-direction: column;
         margin-left: 7%;
+    }
+    .section3
+    {
+        flex-direction: column;
+        height: 550px;
+    }
+    .img1
+    {
+        width: 100%;
+        
+    }
+    .texts
+    {
+        margin-top: -40px;
     }
 }
 
