@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+    font-family: sans-serif;
 }
 body
 {
@@ -37,14 +38,77 @@ body
     justify-content: center;
     gap: 200px;
     border-bottom: 1px solid grey;
-    width: 82.5%;
+    width: 85.5%;
     height: 100px;
-    margin-left: 8%;
+    margin: auto;
     align-items: center;
 }
 .menu
 {
     display: none;
+}
+.section1
+{
+    width: 85.5%;
+    height: 270px;
+    background-image: url(./Rectangle\ 7.png);
+    color: white;
+    margin: auto;
+    margin-top: 50PX;
+}
+.border
+{
+    border: 1px solid white;
+    width: 60px;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.border1
+{
+    border: 1px solid white;
+    width: 200px;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.bigp
+{
+    font-size: 45px;
+    font-weight: 700;
+}
+.pwidth
+{
+    width: 200px;
+}
+.backgroundp
+{
+    width: 280px;
+    padding: 15px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.div1
+{
+    display: flex;
+    gap: 10px;
+}
+.div1_1
+{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    margin-top: 30px;
+}
+.sectdiv1
+{
+    margin-left: 10%;
+    padding-top: 30PX;
 }
 @media(max-width: 520px)
 {
@@ -72,6 +136,28 @@ body
         display: flex;
         justify-content: space-between;
         width: 100%;
+    }
+    .bigp
+    {
+        font-size: 30px;
+    }
+    .section1
+    {
+        background-image: url(./Rectangle\ 7\ \(1\).png);
+    }
+    .div1_1
+    {
+        flex-direction: column;
+    }
+    .sectdiv1
+    {
+        margin-left: 5%;
+    }
+    .backgroundp
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
     }
 }
 
